@@ -1,0 +1,221 @@
+{
+  "n_resumes": 125,
+  "n_flagged": 33,
+  "majority_share": 0.736,
+  "v1_style": {
+    "runs": 200,
+    "accuracy_mean": 0.750625,
+    "accuracy_min": 0.5625,
+    "accuracy_max": 0.90625,
+    "accuracy_std": 0.07112104558427133
+  },
+  "v2": {
+    "majority": {
+      "model": "majority",
+      "n_folds": 50,
+      "accuracy_mean": 0.736,
+      "accuracy_std": 0.01959591794226544,
+      "precision_flagged_mean": 0.0,
+      "precision_flagged_std": 0.0,
+      "recall_flagged_mean": 0.0,
+      "recall_flagged_std": 0.0
+    },
+    "naive_bayes": {
+      "model": "naive_bayes",
+      "n_folds": 50,
+      "accuracy_mean": 0.7951999999999999,
+      "accuracy_std": 0.06627940856706552,
+      "precision_flagged_mean": 0.668031746031746,
+      "precision_flagged_std": 0.20289002515620655,
+      "recall_flagged_mean": 0.5128571428571429,
+      "recall_flagged_std": 0.2024347267494002
+    },
+    "logreg": {
+      "model": "logreg",
+      "n_folds": 50,
+      "accuracy_mean": 0.7951999999999999,
+      "accuracy_std": 0.049728864857344166,
+      "precision_flagged_mean": 0.6777539682539682,
+      "precision_flagged_std": 0.23274970755479593,
+      "recall_flagged_mean": 0.41952380952380947,
+      "recall_flagged_std": 0.21878296641776715
+    },
+    "naive_bayes_tuned": {
+      "model": "naive_bayes_tuned",
+      "n_folds": 50,
+      "accuracy_mean": 0.7888,
+      "accuracy_std": 0.06695192304930456,
+      "precision_flagged_mean": 0.6460512265512266,
+      "precision_flagged_std": 0.1967552918161735,
+      "recall_flagged_mean": 0.5257142857142858,
+      "recall_flagged_std": 0.21188282390453372
+    },
+    "logreg_tuned": {
+      "model": "logreg_tuned",
+      "n_folds": 50,
+      "accuracy_mean": 0.7976000000000001,
+      "accuracy_std": 0.0520983684965278,
+      "precision_flagged_mean": 0.6953253968253966,
+      "precision_flagged_std": 0.18061119481113586,
+      "recall_flagged_mean": 0.4709523809523809,
+      "recall_flagged_std": 0.19944878689554446
+    }
+  },
+  "top_terms": {
+    "flagged": [
+      "matlab",
+      "years",
+      "engineer",
+      "spss",
+      "sql",
+      "model",
+      "python",
+      "models",
+      "software",
+      "statistics",
+      "http",
+      "physics"
+    ],
+    "not_flagged": [
+      "laboratory",
+      "materials",
+      "equipment",
+      "lab",
+      "technician",
+      "managed",
+      "performed",
+      "samples",
+      "compliance",
+      "maintained",
+      "soil",
+      "medical"
+    ]
+  },
+  "misclassified_logreg": [
+    {
+      "index": 2,
+      "true": 0,
+      "predicted": 1
+    },
+    {
+      "index": 10,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 15,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 17,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 19,
+      "true": 0,
+      "predicted": 1
+    },
+    {
+      "index": 23,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 24,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 27,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 32,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 38,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 39,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 49,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 60,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 64,
+      "true": 0,
+      "predicted": 1
+    },
+    {
+      "index": 70,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 71,
+      "true": 0,
+      "predicted": 1
+    },
+    {
+      "index": 72,
+      "true": 0,
+      "predicted": 1
+    },
+    {
+      "index": 75,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 79,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 98,
+      "true": 0,
+      "predicted": 1
+    },
+    {
+      "index": 101,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 106,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 116,
+      "true": 0,
+      "predicted": 1
+    },
+    {
+      "index": 117,
+      "true": 1,
+      "predicted": 0
+    },
+    {
+      "index": 123,
+      "true": 1,
+      "predicted": 0
+    }
+  ]
+}
